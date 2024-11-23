@@ -7,4 +7,6 @@ public class Main {
 
     myLinkedList.printAll();
     }
+
+
 }
