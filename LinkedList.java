@@ -19,7 +19,7 @@ public class LinkedList {
         head = newNode;
         tail = newNode;
 
-        length = 1;
+        length = 4;
     }
     public Node getHead() {
         return head;
