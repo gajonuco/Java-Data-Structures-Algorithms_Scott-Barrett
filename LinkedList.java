@@ -19,7 +19,7 @@ public class LinkedList {
         head = newNode;
         tail = newNode;
 
-        length = 4;
+        length = 1;
     }
     public Node getHead() {
         return head;
@@ -54,7 +54,29 @@ public class LinkedList {
         } else {
             printList();
         }
+    }
+
+        public void makeEmpth() {
+            head = null;
+            tail = null;
+            length = 0;
+        }
+
+        public void append(int value) {
+            Node newNode = new Node(value);
+
+            if(length == 0){
+                head = newNode;
+                tail = newNode;
+            } else {
+                tail.next = newNode;
+                tail = newNode;
+            }
+
+            length++;
+        }
 
     }
 
-}
+
+
