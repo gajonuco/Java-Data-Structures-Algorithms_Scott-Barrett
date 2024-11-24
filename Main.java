@@ -3,7 +3,17 @@
 public class Main {
     public static void main(String[] args) {
 
-    LinkedList myLinkedList = new LinkedList(2);
+
+    //4. Para obter o valor de um index específico no Linkedlist    
+/*     LinkedList myLinkedList = new LinkedList(0);
+    myLinkedList.append(1);
+    myLinkedList.append(2);
+    myLinkedList.append(6789);  
+
+    System.out.println(myLinkedList.get(3).value); */
+
+    //3. Para adicionar un novo node no início do linkedlist    
+/*     LinkedList myLinkedList = new LinkedList(2);
     myLinkedList.append(3);
 
     System.out.println("Before prepend():");
@@ -14,7 +24,7 @@ public class Main {
 
     System.out.println("\n\nAfter prepend():");
     System.out.println("----------------");
-    myLinkedList.printAll();
+    myLinkedList.printAll(); */
 
     //2. Para remover um node no final da linkedlist
 /*     LinkedList myLinkedList = new LinkedList(1);
