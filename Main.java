@@ -3,10 +3,19 @@
 public class Main {
     public static void main(String[] args) {
 
+    LinkedList myLinkedList = new LinkedList(2);
+    myLinkedList.append(3);
 
+    System.out.println("Before prepend():");
+    System.out.println("-----------------");
+    myLinkedList.printAll();
 
+    myLinkedList.prepend(1);
 
-        
+    System.out.println("\n\nAfter prepend():");
+    System.out.println("----------------");
+    myLinkedList.printAll();
+
     //2. Para remover um node no final da linkedlist
 /*     LinkedList myLinkedList = new LinkedList(1);
 
